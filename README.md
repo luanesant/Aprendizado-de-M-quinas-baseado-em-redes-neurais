@@ -4,12 +4,12 @@
 
 Integrantes:
 
-- 
+- ANA FLÁVIA FREITAS DAS CHAGAS
 - CAIO DA SILVA MARTINS
--
+- ERIK FELIPE DA SILVA OLIVEIRA
 - LUANE DOS SANTOS LOPES
 -
--
+- RAFAEL FARIAS DE LIMA
 
 Email: 
 - anaf.chagas@icomp.ufam.edu.br

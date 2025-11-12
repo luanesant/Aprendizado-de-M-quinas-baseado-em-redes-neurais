@@ -42,7 +42,7 @@ O projeto tem como objetivo:
 
 ### 📊 Avaliação e Resultados
 O modelo foi avaliado com base em duas métricas principais:
-- Acurácia categórica: Mede a proporção de previsões corretas em relação ao total de exemplos.
+- Acurácia: Mede a proporção de previsões corretas em relação ao total de exemplos.
 - Matriz de confusão: Permite visualizar em quais classes o modelo apresenta maior confusão.
 
 ### 🧾 Resultados Obtidos

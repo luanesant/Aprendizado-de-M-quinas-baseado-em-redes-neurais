@@ -62,3 +62,15 @@ A diferença entre o resultado do treino e o do teste indica que o modelo ainda 
 Matriz de Confusão 
 
 ![Matriz de Confusão](assets/matrizConfusão.png)
+
+### 🧠 Data Augmentation (DA)
+O data augmentation é o processo de gerar artificialmente novos dados a partir de dados existentes, principalmente para treinar novos modelos de machine learning (ML).
+Durante o treinamento podemos perceber que durante o treinamento o DA ampliou significativamente as imagens usadas, assim cada tipo de lixo pode ter recebido uma versão variada de si, simulando pequenas situações reais ou não para o modelo. Logo, podemos concluir que o foco do modelo passou a ser o aprendizado direcionado, ou seja, sabia exatamente o que procurar e como identificar ao longo dos testes, o overfitting reduziu, além das melhoras de acurácia nos treinos e testes.
+
+
+
+##
+<div align='center'>   
+Engenharia de Software na <a href="https://icomp.ufam.edu.br/">UFAM</a>, disciplina de Fundamento de Inteligência Artificial.
+</div>
+

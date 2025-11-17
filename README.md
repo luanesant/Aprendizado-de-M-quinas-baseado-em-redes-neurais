@@ -48,6 +48,7 @@ O modelo foi avaliado com base em duas métricas principais:
 ### 🧾 Resultados Obtidos
 
 Gráfico de Acurácia
+
 Durante o treinamento do modelo que identifica o tipo de lixo nas imagens, foi possível acompanhar como ele foi aprendendo aos poucos a reconhecer melhor cada material (vidro, papel, plástico, metal, papelão e lixo comum).
 Conforme o modelo foi treinado mais vezes:
 - Ele foi melhorando, chegando a acertar entre 70% a 80% das imagens de treino.
@@ -61,16 +62,22 @@ A diferença entre o resultado do treino e o do teste indica que o modelo ainda 
 
 Matriz de Confusão 
 
+Com base nos dados contidos na matriz, as classes que geram maior discordância são: Plástico, Vidro e Metal.
+
+Principais Confusões
+- Plástico: 37 itens que eram na verdade plástico (plastic) foram incorretamente classificados como vidro (glass).
+- Metal e Vidro: 21 itens que eram metal (metal) foram incorretamente classificados como vidro (glass) e 21 itens que eram plástico (plastic) foram incorretamente classificados como papel (paper).
+
 ![Matriz de Confusão](assets/matrizConfusão.png)
 
 ### 🧠 Data Augmentation (DA)
 O data augmentation é o processo de gerar artificialmente novos dados a partir de dados existentes, principalmente para treinar novos modelos de machine learning (ML).
 Durante o treinamento podemos perceber que durante o treinamento o DA ampliou significativamente as imagens usadas, assim cada tipo de lixo pode ter recebido uma versão variada de si, simulando pequenas situações reais ou não para o modelo. Logo, podemos concluir que o foco do modelo passou a ser o aprendizado direcionado, ou seja, sabia exatamente o que procurar e como identificar ao longo dos testes, o overfitting reduziu, além das melhoras de acurácia nos treinos e testes.
 
+Além disso, ao relacionarmos o efeito do data augmentation com a matriz de confusão, observamos que o DA ajudou a reduzir algumas ambiguidades entre as classes, mas ainda há discordâncias relevantes. As maiores confusões ocorreram entre Plástico e Vidro, com 37 itens de plástico sendo classificados como vidro, e também entre Metal e Vidro, com 21 itens de metal classificados como vidro. Houve ainda 21 casos de plástico sendo confundido com papel. Essas falhas mostram que, embora o DA tenha aprimorado o aprendizado geral do modelo, ainda existem padrões visuais nessas categorias que o modelo confunde, reforçando a importância de continuar enriquecendo o conjunto de dados e ajustando o modelo para melhorar sua capacidade de distinção entre classes semelhantes.
 
 
 ##
-<div align='center'>   
-Engenharia de Software na <a href="https://icomp.ufam.edu.br/">UFAM</a>, disciplina de Fundamento de Inteligência Artificial.
+<div align='center'>Engenharia de Software na <a href="https://icomp.ufam.edu.br/">UFAM</a>, Profº  <a href=https://www.linkedin.com/in/edjard-mota-7485144/>Edjard Mota</a> da disciplina de Fundamentos de Inteligência Artificial (ES01).
 </div>
 
